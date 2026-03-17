@@ -1,0 +1,80 @@
+{
+    "users": [
+        {
+            "id": "user-1",
+            "name": "Alice",
+            "coinBalance": 50,
+            "unlockedEpisodes": [
+                "ep-103"
+            ],
+            "watchHistory": [
+                {
+                    "episodeId": "ep-101",
+                    "watchedAt": "2025-03-01T10:00:00Z",
+                    "completedPercent": 100
+                },
+                {
+                    "episodeId": "ep-102",
+                    "watchedAt": "2025-03-01T10:05:00Z",
+                    "completedPercent": 100
+                },
+                {
+                    "episodeId": "ep-103",
+                    "watchedAt": "2025-03-02T20:00:00Z",
+                    "completedPercent": 45
+                }
+            ]
+        },
+        {
+            "id": "user-2",
+            "name": "Bob",
+            "coinBalance": 10,
+            "unlockedEpisodes": [],
+            "watchHistory": [
+                {
+                    "episodeId": "ep-201",
+                    "watchedAt": "2025-03-05T18:30:00Z",
+                    "completedPercent": 100
+                }
+            ]
+        },
+        {
+            "id": "user-3",
+            "name": "Clara",
+            "coinBalance": 200,
+            "unlockedEpisodes": [
+                "ep-202",
+                "ep-203",
+                "ep-204",
+                "ep-302"
+            ],
+            "watchHistory": [
+                {
+                    "episodeId": "ep-201",
+                    "watchedAt": "2025-03-04T09:00:00Z",
+                    "completedPercent": 100
+                },
+                {
+                    "episodeId": "ep-202",
+                    "watchedAt": "2025-03-04T09:03:00Z",
+                    "completedPercent": 100
+                },
+                {
+                    "episodeId": "ep-203",
+                    "watchedAt": "2025-03-04T09:06:00Z",
+                    "completedPercent": 80
+                },
+                {
+                    "episodeId": "ep-301",
+                    "watchedAt": "2025-03-06T21:00:00Z",
+                    "completedPercent": 100
+                },
+                {
+                    "episodeId": "ep-302",
+                    "watchedAt": "2025-03-06T21:05:00Z",
+                    "completedPercent": 100
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+
+---
+
+## 3. `data/catalog.json`
+
+```json
+{
+    "series": [
+        {
+            "id": "series-1",
+            "title": "Le Piège",
+            "genre": "thriller",
+            "episodes": [
+                {
+                    "id": "ep-101",
+                    "number": 1,
+                    "title": "L'appel",
+                    "durationSec": 120,
+                    "tier": "free"
+                },
+                {
+                    "id": "ep-102",
+                    "number": 2,
+                    "title": "La fuite",
+                    "durationSec": 95,
+                    "tier": "free"
+                },
+                {
+                    "id": "ep-103",
+                    "number": 3,
+                    "title": "Le doute",
+                    "durationSec": 140,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-104",
+                    "number": 4,
+                    "title": "La chute",
+                    "durationSec": 110,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-105",
+                    "number": 5,
+                    "title": "Le verdict",
+                    "durationSec": 180,
+                    "tier": "premium"
+                }
+            ]
+        },
+        {
+            "id": "series-2",
+            "title": "Cœur à vif",
+            "genre": "romance",
+            "episodes": [
+                {
+                    "id": "ep-201",
+                    "number": 1,
+                    "title": "Le café",
+                    "durationSec": 90,
+                    "tier": "free"
+                },
+                {
+                    "id": "ep-202",
+                    "number": 2,
+                    "title": "Le secret",
+                    "durationSec": 130,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-203",
+                    "number": 3,
+                    "title": "L'aveu",
+                    "durationSec": 100,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-204",
+                    "number": 4,
+                    "title": "La rupture",
+                    "durationSec": 150,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-205",
+                    "number": 5,
+                    "title": "Retrouvailles",
+                    "durationSec": 170,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-206",
+                    "number": 6,
+                    "title": "Pour toujours",
+                    "durationSec": 160,
+                    "tier": "premium"
+                }
+            ]
+        },
+        {
+            "id": "series-3",
+            "title": "Blackout",
+            "genre": "sci-fi",
+            "episodes": [
+                {
+                    "id": "ep-301",
+                    "number": 1,
+                    "title": "Signal perdu",
+                    "durationSec": 100,
+                    "tier": "free"
+                },
+                {
+                    "id": "ep-302",
+                    "number": 2,
+                    "title": "Zone morte",
+                    "durationSec": 115,
+                    "tier": "premium"
+                },
+                {
+                    "id": "ep-303",
+                    "number": 3,
+                    "title": "Rémanence",
+                    "durationSec": 125,
+                    "tier": "premium"
+                }
+            ]
+        }
+    ]
+}
